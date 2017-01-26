@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { background: #cccccc; }
+
+      section {
+        overflow: hidden;
+        width: 1200px;
+        margin: 0 auto;
+        background: #ffffff;
+        overflow: hidden;
+      }
+
+      section:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      footer {
+        content: "";
+        clear: both;
+      }
+      article {
+        float: left;
+        width: 70%;
+        background: #ffffcc;
+        padding-right: 30px;
+        box-sizing: border-box;
+      }
+
+      aside {
+        /*float: left;  Or float: right. Both work since this is only 2 columns */
+        /*width: 300px;*/
+        background: #ccffcc;
+        overflow: hidden;
+      }
+      header {
+        float: left;
+        width: 15%;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <p>There are a few different types of positioning within CSS, and each has its own application. In this chapter we’re going to take a look at a few different use cases—creating reusable layouts and uniquely positioning one-off elements—and describe a few ways to go about each.</p>
+      </header>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ex at odio congue posuere a at ligula. Pellentesque ac pulvinar metus. Quisque a maximus elit. Nam eu nunc condimentum, vehicula est rhoncus, imperdiet augue. Aliquam dignissim turpis ac felis fringilla consectetur. Donec sit amet sagittis felis, a pharetra justo. Donec et turpis mauris. Curabitur feugiat felis et ligula blandit, a vestibulum erat congue. Aenean quis porta nisi, eu gravida purus. Ut et convallis sem.</p>
+
+        <p>Quisque porta neque id sollicitudin congue. Proin rutrum, ex eu molestie pellentesque, ipsum mi volutpat nunc, vitae mollis lacus leo ut arcu. Sed sollicitudin, sapien non rhoncus elementum, quam magna tincidunt dui, sed auctor dui ipsum viverra lectus. Aliquam ut feugiat eros, et convallis sem. Nulla aliquam est vitae felis dictum ultrices. Duis in aliquet nisl. Vestibulum elementum tincidunt facilisis. Nulla finibus libero in nunc efficitur finibus. In molestie, lorem vel semper vestibulum, elit nulla convallis ex, eu consectetur mi neque ac lacus. Praesent finibus sapien sed dignissim mollis. Cras finibus tristique arcu.</p>
+
+        <p>Proin cursus, ipsum in fermentum tincidunt, urna mi malesuada nunc, vel vulputate nisi odio id libero. Praesent nisi felis, tempus a placerat in, commodo sed purus. Nam ullamcorper finibus velit et blandit. Donec purus sem, sodales sit amet molestie eget, luctus id eros. Ut viverra dapibus ligula quis maximus. Aenean sem urna, sagittis quis iaculis ac, elementum eget quam. Morbi a lorem nec nunc placerat aliquet. Aenean in fringilla metus, eget congue sapien.</p>
+      </article>
+      <aside>
+        <p>Maecenas mi odio, viverra ac maximus eu, congue eu orci. Nam dignissim ligula eu faucibus mollis. Sed id rhoncus velit. Vestibulum faucibus, mauris et fermentum faucibus, ligula quam imperdiet dolor, non tristique ligula erat in eros. Nam vulputate lobortis placerat. Quisque sed tortor ut nibh fermentum euismod vel nec sapien. In pharetra, ex a bibendum malesuada, urna dolor sollicitudin enim, ac pharetra justo quam in sapien. Maecenas nec est semper, tristique erat ac, commodo turpis. Maecenas eu luctus quam. Cras malesuada velit ac sagittis gravida. Quisque dignissim tellus in elit cursus sodales.</p>
+      </aside>
+      <footer>
+        <p>One of the best things about CSS is that it gives us the ability to position content and elements on a page in nearly any imaginable way, bringing structure to our designs and helping make content more digestible.</p>
+      </footer>
+    </section>
+  </body>
+</html>
