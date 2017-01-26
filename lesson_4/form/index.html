@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form action="" method="post">
+    <fieldset>
+      <dl>
+        <dt>
+          <label for="first_name">First Name</label>
+        </dt>
+        <dd>
+          <input type="text" name="first_name" id="first_name" />
+        </dd>
+        <dt>
+          <label for="last_name">Last Name</label>
+        </dt>
+        <dd>
+          <input type="text" name="last_name" id="last_name" />
+        </dd>
+        <dt>
+          <label for="email">Email Address</label>
+        </dt>
+        <dd>
+          <input type="email" name="email" id="email" autocomplete="off" autocorrect="off" autocapitalize="none" />
+        </dd>
+        <dt>
+          <label for="phone_type">Phone Type</label>
+        </dt>
+        <dd>
+          <select name="phone_type" id="phone_type">
+            <optgroup label="Phone Type">
+              <option value="business">Business</option>
+              <option value="home" selected>Home</option>
+              <option value="mobile">Mobile</option>
+            </optgroup>
+          </select>
+        </dd>
+        <dt>
+          <label for="phone">Phone Number</label>
+        </dt>
+        <dd>
+          <input type="tel" name="phone" id="phone" maxlength="10" placeholder="10 numbers in total"/>
+        </dd>
+      </dl>
+      <input type="submit" value="submit" />
+    </fieldset>
+    </form>
+
+    <form action="" method="get">
+      <fieldset>
+        <h2>Category</h2>        
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="Core" />
+              Core
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="plugins" />
+              Plugins and Libraries
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="conventions" />
+              Conventions
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="reviews" />
+              Reviews
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="opinion" />
+              Opinions
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="category" id="category" value="people" />
+              People
+            </label>
+          </li>
+        </ul>
+        <h2>Tags</h2>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="HTML" />
+              HTML
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="CSS" />
+              CSS
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="Javascript" />
+              Javascript
+            </label>
+          </li>                    
+          <li>
+            <label>
+              <input type="checkbox" name="Ruby" />
+              Ruby
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="Rails" />
+              Rails
+            </label>
+          </li> 
+          <li>
+            <label>
+              <input type="checkbox" name="Python" />
+              Python
+            </label>
+          </li> 
+          <li>
+            <label>
+              <input type="checkbox" name="Django" />
+              Django
+            </label>
+          </li>         
+        </ul>
+        <input type="submit" value="Filter" />
+      </fieldset>
+    </form>
+  </body>
+</html>
