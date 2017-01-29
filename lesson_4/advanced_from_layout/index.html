@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Create Your Profile</h1>
+      <fieldset>
+        <h2>Personal Info</h2>
+        <dl>
+          <dt>
+            <label for="first_name">Your Name</label>
+          </dt>
+          <dd>
+            <input type="text" name="first_name" id="first_name" /><!--
+         --><input type="text" name="last_name" id="last_name" />
+          </dd>
+          <dt>
+            <label for="email">Email</label>
+          </dt>
+          <dd>
+            <input type="email" name="email" id="email" />
+          </dd>
+        </dl>
+      </fieldset>
+      <fieldset>
+        <h2>Social Media Account</h2>
+        <dl class="partial third">
+          <dt>
+            <label for="facebook">Facebook</label>
+          </dt>
+          <dd>
+            <input type="text" id="facebook" name="facebook" />
+          </dd>
+        </dl><!--
+     --><dl class="partial third">
+          <dt>
+            <label for="twitter">Twitter</label>
+          </dt>
+          <dd>
+            <input type="text" id="twitter" name="twitter" />
+          </dd>
+        </dl><!--
+     --><dl class="partial third last">
+          <dt>
+            <label for="linkedin">Linkedin</label>
+          </dt>
+          <dd>
+            <input type="text" id="linkedin" name="linkedin" />
+          </dd>
+        </dl>
+      </fieldset>
+      <fieldset>
+        <h2>Account Info</h2>
+        <dl>
+          <dt>
+            <label for="profile">Profile Name</label>
+          </dt>
+          <dd>
+            <input type="text" name="profile" id="profile" />
+          </dd>
+        </dl><!--
+     --><dl class="partial half">
+          <dt>
+            <label for="password">Password</label>
+          </dt>
+          <dd>
+            <input type="text" name="password" id="password" />
+          </dd>
+        </dl>
+        <dl class="partial half last">
+          <dt>
+            <label for="password_confirmation">Confirm Password</label>
+          </dt>
+          <dd>
+            <input type="text" name="password_confirmation" id="password_confirmation" />
+          </dd>
+        </dl>
+      </fieldset>
+      <fieldset>
+        <h2>
+          <label for="bio">Bio</label>
+        </h2>
+        <textarea rows="6" cols="120" name="bio" id="bio">
+        </textarea>
+      </fieldset>
+      <fieldset>
+        <label class="checkbox">
+          <input type="checkbox" name="agree"/>
+        </label>
+        <input type="submit" value="Create Account" />
+      </fieldset>
+    </form>
+  </body>
+</html>

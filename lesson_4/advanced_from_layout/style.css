@@ -1,0 +1,95 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:    Tantek Celik, Shane Riley
+    Version:    (CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:  Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+form {
+  background: #fff;
+  width: 40rem;
+  margin: 0 auto;
+  border-left: 4px solid #CCCCCC;
+  padding: 24px;
+}
+
+fieldset {
+  border: none;
+  background: #ECECEC;
+  margin: 0;
+  margin-bottom: 2px;
+  padding: 0 30px;
+}
+
+dt {
+  display: block;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #666666;
+}
+
+dd {
+  margin: 0;
+  width:100%;
+  display: block;
+}
+
+input,
+textarea {
+  border-radius: 4px;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  border: 1px solid #0066CC;
+  height: 30px;
+  padding: 5px 8px;
+  margin-bottom: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[name*="name"] {
+    width: 49%;
+}
+
+input[name="last_name"] {
+    margin-left: 2%;
+}
+
+
+dl.partial {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+}
+
+dl.half {
+  width: 50%;
+}
+
+textarea {
+  height: auto;
+}
+
