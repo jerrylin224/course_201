@@ -1,0 +1,141 @@
+@import url("whitespace-reset.css");
+
+body {
+  font: normal 20px "Avenir", Helvetica, Arial, sans-serif;
+  padding: 135px 0 0 0;
+  text-align: center;
+  color: #45494d;
+  background: #2f2840 url("images/bg_body.gif") 50% 0 repeat;
+}
+
+header h1 {
+  margin: 0 0 115px 0;
+}
+
+nav {
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+nav li {
+  display: inline;
+  padding: 0 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #6db9ff;
+}
+
+main {
+  background: #fff;
+  padding:100px 0 0 0;
+}
+
+article {
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+h2::before,
+h2::after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  content: "\2022";
+  vertical-align: middle;
+}
+
+h3 {
+  color: #3e59b2;
+  padding-bottom: 14px;
+  font-size: 24px;
+}
+
+.column {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+article p{
+  padding: 0 110px;
+}
+
+footer {
+  background: #e7e7e7;
+  padding: 80px 0;
+  color: #b2b2b2;
+}
+
+footer p {
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 62px;
+}
+
+footer a {
+  height: 46px;
+  width: 46px;
+  display: block;
+  background: transparent url('images/icons_social-media.png') 0 0 no-repeat;
+}
+
+footer a.facebook {
+  background-position: 0 -46px;
+}
+
+footer a.email {
+  background-position: 0 -92px;
+}
+
+footer a.instagram {
+  background-position: 0 100%;
+}
+
+figure img{
+  display: inline-block;
+  text-align: center;
+}
+
+#projects figure {
+  padding-bottom: 55px;
+}
+
+#projects figure img{
+  display: block;
+}
+
+#team p {
+  padding-bottom: 126px;
+}
+
+#team li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 24px;
+}
+
+#team li img {
+  display: block;
+  padding-bottom: 25px;
+}
+
+#team li a {
+  color: #3e59b2;
+  text-decoration: none;
+}
