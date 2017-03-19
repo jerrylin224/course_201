@@ -23,22 +23,56 @@ summary::-webkit-details-marker { display: none; }
 
 body {
   font: normal 16px Helvetica, Arial, sans-serif;
+  color: #282828;
+}
+
+h1 {
+  padding-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+h2 {
+  padding-bottom: 1.2rem;
+  font-size: 1.25rem;
 }
 
 form {
   background: #fff;
   width: 40rem;
   margin: 0 auto;
-  border-left: 4px solid #CCCCCC;
+  /*border-left: 4px solid #CCCCCC;*/
   padding: 24px;
 }
 
-fieldset {
+dt {
+    display: block;
+}
+
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+
+label {
+    display: block;
+    padding-bottom: .62rem;
+    font-weight: bold;
+    color: #666666;
+}
+/*fieldset {
   border: none;
   background: #ECECEC;
   margin: 0;
   margin-bottom: 2px;
   padding: 0 30px;
+}*/
+
+fieldset {
+  padding: 1.5rem 2rem;
+  margin-bottom: 2px;
+  border-left: 4px solid #cccccc;
+  background: #ececec;
 }
 
 dt {
@@ -47,10 +81,12 @@ dt {
 
 label {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: .62rem;
   font-weight: bold;
   color: #666666;
 }
+
+
 
 dd {
   margin: 0;
@@ -58,15 +94,18 @@ dd {
   display: block;
 }
 
-input,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
 textarea {
-  border-radius: 4px;
-  font: normal 14px Helvetica, Arial, sans-serif;
-  border: 1px solid #0066CC;
-  height: 30px;
-  padding: 5px 8px;
-  margin-bottom: 24px;
   width: 100%;
+  height: 2.5rem;
+  padding: .31rem .5rem;
+  margin-bottom: 1.5rem;
+  font: normal .875rem Helvetica, Arial, sans-serif;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -89,7 +128,51 @@ dl.half {
   width: 50%;
 }
 
-textarea {
-  height: auto;
+dl.third {
+  width: 33.3%;
 }
 
+dl.partial {
+  display: inline-block;
+  padding-right: 1.25rem;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+dl.last {
+    padding-right: 0;
+}
+
+textarea {
+  height: auto;
+  max-height: 17.5rem;
+  resize: vertical;
+}
+
+label.checkbox {
+  position: relative;
+  padding: 0 0 1.5rem 1.25rem;
+  font-size: .875rem;
+  font-weight: normal;
+}
+
+label.checkbox input {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+input[type="submit"] {
+    padding: .875rem 2rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font: normal 1rem Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    background: #0066cc;
+}
+
+input[type="submit"]:hover {
+  background: #5f95cb;
+}
